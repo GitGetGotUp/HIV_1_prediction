@@ -2,7 +2,7 @@
 using XGBoost in a classification exercise: Kaggle competition from 13 years ago:
 
 
-Winner had 27 Submissions, and a Score of 67.91909. That was 13 years ago. 
+Winner had 27 Submissions, and a Score of 0.67. That was 13 years ago. 
 Today: couple lines of code + XGBoost achieve 0.81. Without hyperparamter tuning or extensive feature engineering. 
 
 This contest focuses on using the nucleotide sequence of the Reverse Transcriptase (RT) and Protease (PR) to predict the patient's short-term progression. For the non-Biologist: the nucleotide sequence is the blueprint of the protein, which is the workhorse of the cell.  The RT enzyme is responsible for copying the HIV-1 genome within the cell. As the HIV-1 genome is translated it is in one long string of amino acids; the PR protein cuts this string into the numerous functional units - required by the HIV life-cycle. These are the proteins that are targeted by most HIV-1 drugs since they are mostly unique to the HIV-1 life-cycle.  
